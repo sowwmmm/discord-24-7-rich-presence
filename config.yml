@@ -1,39 +1,45 @@
-# Replace with your Discord Application ID
 application_id: "1542226742381645895"
 
-# Activity type: 0 = Playing, 1 = Streaming, 2 = Listening, 3 = Watching
-type: 1
+activities:
 
-# Activity Details
-name: "Streaming"
-details: "feds"
-state: "fuck."
+  # =========================
+  # Streaming RPC
+  # =========================
+  - type: 1
+    name: "Streaming"
+    details: "feds"
+    state: "fuck."
 
-# Activity Images
-largeImageKey: ""
-largeImageText: ""
-smallImageKey: ""
-smallImageText: ""
+    largeImageKey: ""
+    largeImageText: ""
+    smallImageKey: ""
+    smallImageText: ""
 
-# Activity URL (optional)
-url: ""
+    url: ""
 
-# Activity Buttons (optional)
-buttons:
-  - name: "rape"
-    url: "https://discord.com/oauth2/authorize?client_id=1542226742381645895&permissions=8&scope=bot"
+    buttons:
+      - name: "rape"
+        url: "https://discord.com/oauth2/authorize?client_id=1542226742381645895&permissions=8&scope=bot"
 
-# Activity Custom status
+
+  # =========================
+  # Visual Studio Code RPC
+  # =========================
+  - type: 0
+    name: "Visual Studio Code"
+    details: "Visual Studio Code"
+    state: "Editing malware.cpp"
+
+    largeImageKey: ""
+    largeImageText: ""
+    smallImageKey: "vscode"
+    smallImageText: "Visual Studio Code"
+
+    url: ""
+
+
+# =========================
+# Custom Status
+# =========================
 custom_status: ""
 custom_emoji: ""
-
-# Visual Studio Code RPC
-type: 0
-name: "Visual Studio Code"
-details: "Visual Studio Code"
-state: "Editing malware.cpp"
-largeImageKey: ""
-largeImageText: ""
-smallImageKey: "vscode"
-smallImageText: "Visual Studio Code"
-url: ""
