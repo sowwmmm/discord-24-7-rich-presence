@@ -69,7 +69,7 @@ if (Array.isArray(config.activities)) {
  */
 if (activities.length === 0) {
   const rich = new RichPresence(client)
-    .setApplicationId(config.application_id)
+    .setApplicationId(activity.application_id || config.application_id)
     .setType(config.type || 0)
     .setName(config.name || "My Cool Presence")
     .setDetails(config.details || "")
