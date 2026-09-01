@@ -26,3 +26,14 @@ buttons:
 # Activity Custom status
 custom_status: ""
 custom_emoji: ""
+
+# Visual Studio Code RPC
+type: 0
+name: "Visual Studio Code"
+details: "Visual Studio Code"
+state: "Editing malware.cpp"
+largeImageKey: ""
+largeImageText: ""
+smallImageKey: "vscode"
+smallImageText: "Visual Studio Code"
+url: ""
