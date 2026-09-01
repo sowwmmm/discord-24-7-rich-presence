@@ -35,12 +35,15 @@ server.listen(PORT, "0.0.0.0", () => {
 const activities = [];
 
 /**
- * Support new multi-activity config
+ * Support multi-activity config
+ * Each activity can have its own application_id.
  */
 if (Array.isArray(config.activities)) {
   for (const activity of config.activities) {
     const rich = new RichPresence(client)
-      .setApplicationId(config.application_id)
+      .setApplicationId(
+        activity.application_id || config.application_id
+      )
       .setType(activity.type ?? 0)
       .setName(activity.name || "My Cool Presence")
       .setDetails(activity.details || "")
