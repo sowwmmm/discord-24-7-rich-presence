@@ -9,7 +9,7 @@ activities:
     details: "feds"
     state: "fuck."
 
-    largeImageKey: ""
+    largeImageKey: "feds"
     largeImageText: ""
     smallImageKey: ""
     smallImageText: ""
@@ -30,10 +30,10 @@ activities:
     details: "Visual Studio Code"
     state: "Editing malware.cpp"
 
-    largeImageKey: ""
+    largeImageKey: "keyboard"
     largeImageText: ""
     smallImageKey: "vscode"
-    smallImageText: "Visual Studio Code"
+    smallImageText: ""
 
     url: ""
 
