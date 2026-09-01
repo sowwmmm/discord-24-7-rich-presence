@@ -1,11 +1,10 @@
-application_id: "1542226742381645895"
-
 activities:
 
   # =========================
   # Streaming RPC
   # =========================
-  - type: 1
+  - application_id: "1542226742381645895"
+    type: 1
     name: "Streaming"
     details: "feds"
     state: "fuck."
@@ -25,7 +24,8 @@ activities:
   # =========================
   # Visual Studio Code RPC
   # =========================
-  - type: 0
+  - application_id: "YOUR_VSCODE_APPLICATION_ID"
+    type: 0
     name: "Visual Studio Code"
     details: "Visual Studio Code"
     state: "Editing malware.cpp"
