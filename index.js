@@ -68,6 +68,7 @@ client.on("ready", async () => {
   try {
     client.user.setPresence({
       activities: [
+        rich.toJSON()
       ],
       status: "online",
     });
