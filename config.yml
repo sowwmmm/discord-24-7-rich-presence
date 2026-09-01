@@ -24,7 +24,7 @@ activities:
   # =========================
   # Visual Studio Code RPC
   # =========================
-  - application_id: "YOUR_VSCODE_APP_ID"
+  - application_id: "1544210118269345902"
     type: 0
     name: "Visual Studio Code"
     details: "Visual Studio Code"
