@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nexoslabs/discord-24-7-rich-presence.git"
+    "url": "https://github.com/nexoslabs/discord-24-7-rich-presence.git"
   },
   "keywords": [
     "discord",
